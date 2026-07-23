@@ -1,7 +1,23 @@
 aid: amberjack
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amberjack.png
 name: amberjack
-description: amberjack is a company surfaced as a portfolio company of slow-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Amberjack is a direct-to-consumer men's footwear brand based in Brooklyn, New York, that
+  designs and manufactures dress shoes engineered with athletic-inspired technology such as heat-activated
+  arch support and dual-density outsoles for all-day comfort in hybrid work settings. The company sells
+  direct to consumers through a Shopify storefront and is backed by Slow Ventures. Enrichment found no
+  public developer or API surface (no docs portal, OpenAPI, SDKs, OAuth, or /.well-known endpoints); it
+  remains catalogued as a consumer-brand company profile rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/amberjack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,8 +28,16 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+x-api-surface: none
 tags:
 - Company
+- Footwear
+- Ecommerce
+- Direct to Consumer
+- Retail
+- Consumer Brand
+- Shoes
+- Shopify
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://amberjack.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
